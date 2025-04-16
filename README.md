@@ -108,7 +108,8 @@ Query: [Analysis]()
 Visualization: [Tableau]()
 1. Comparing Total Trips `Members` and `Casual`
 
-![Image](<Dashboard 1.png>)
+![Image](https://drive.google.com/uc?export=view&id=12Z5tKAYYnflj5mL7hSUoqCorIJXKBZ-6
+)
 
     `Members` took the most rides with 63,87% (1.506.079 Trips) of the total trips compared to 36,13% (2662.193) for `Casual`
 
@@ -117,7 +118,7 @@ Visualization: [Tableau]()
 
 2. Average Ride Length `Members` and `Casual`
 
-![Image](<Dashboard 2.png>)
+![Image](https://drive.google.com/uc?export=view&id=1LebTHhfxcUotxeUos-DfFIEvLIiiGltW)
 `Casual` riders averaged 23,68 minutes per ride while `Member` riders averaged 12,06 minutes per rides.
 
     **This difference indicates that `Casual` riders typically take longer trips compared to `Members`, with casual trips being more than twice as long on average.**
@@ -125,7 +126,8 @@ Visualization: [Tableau]()
 
 3. Bike Demand By Hour
 
-![Image](<Dashboard 3.png>)
+![Image](https://drive.google.com/uc?export=view&id=1GAndcb7UkbYKZFlFmg-INxvXmY7wHzud
+)
 This is when the demand peaks for both `Members` and `Casual` riders. The rush at **17:00** is especially notable for `Members`, likely **reflecting the end of the workday or shift**, when people are returning home or heading out for personal errands. 
 
     Since the peak demand time shows a clear gap between `Casual` and `Member` riders, the service could focus on converting more `Casual` riders into `Members`, particularly those who use the service during the busy times like 17:00.
@@ -133,7 +135,9 @@ This is when the demand peaks for both `Members` and `Casual` riders. The rush a
 
 4. Bike Demand Daily
 
-![Image](<Dashboard 5.png>)
+![Image](https://drive.google.com/uc?export=view&id=1h7FiRzy0FrlHYVI8LcyWnXetY2rLo-_H
+)
+
 
 The busiest day in the week for `Members` were Tuesday to Thursday, and the busiest day for `Casual` were Friday to Sunday
 
@@ -141,7 +145,7 @@ This data reinforces the differing behavior between `Members` and `Casual` rider
 
 5. Bike Demand Monthly
 
-![Image](<Dashboard 4.png>)
+![Image](https://drive.google.com/uc?export=view&id=1XLSQ2bPGxoGKQb4dI2HY7sbCV5cId0Qv)
 
 The busiest month in 2024 for both `Members` and `Casual` were July through September. 
 
@@ -153,7 +157,8 @@ Marketing campaigns could leverage this peak period, offering seasonal promotion
 
 6. Total Trips by Different Bike Types
 
-![Image](<Dashboard 6.png>)
+![Image](https://drive.google.com/uc?export=view&id=1i3TKDu9JrJR-lln90OjfjOudtVJpcjy8
+)
 
 The classic bike is the most popular bike type for both `Casual` and `Member`.
 
@@ -163,7 +168,8 @@ Electric scooters are best suited for people who need a quick, convenient, and l
 
 7. Casual Type Riders That Rides More Than 2 times Standard Deviation
 
-![Image](<Dashboard 7.png>)
+![Image](https://drive.google.com/uc?export=view&id=1tFiWbG3ioerazr5gczuOdvktfWiQGiij
+)
 
 Based on the data that **55,448 `Casual` riders** are riding for more than 60 minutes, and the fact that they fall beyond 2 standard deviations of the average ride time, this presents an excellent opportunity for the marketing team to target these users and potentially convert them into **`Members`**.
 
@@ -171,7 +177,8 @@ The **55,448 `Casual` riders** who consistently ride for more than 60 minutes re
 
 8. Top 10 Start Station Name for `Casual`
 
-![Image](<Dashboard 9.png>)
+![Image](https://drive.google.com/uc?export=view&id=19onE4HKXi-zRv5XZ4gO3wKW9y4b-1joR
+)
 
 The **Top 10 Start Station Names for ``Casual`` riders** show that bikes are predominantly used in **tourist areas** and **recreational hotspots**. The stations with the highest total ride lengths are located near popular attractions like **Millennium Park**, **Shedd Aquarium**, and the **waterfront**, indicating that **``Casual`` riders** are using bikes for longer, more leisurely trips. These insights can guide **marketing strategies** targeting **tourists** and **recreational riders**, as well as help with **fleet management** and **membership promotions**.
 
