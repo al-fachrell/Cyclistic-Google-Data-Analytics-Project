@@ -4,14 +4,14 @@ Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.cour
 ## Introduction
 Hi, my name is Faiq Al Fachrell Putra Viendra and I'm doing this to add case study to my portfolio project. 
 
-This repository contains the work for the Google Data Analyics Cyclistic Bike-Share Capstone Case Study. The analysis aims to compare the behaviors of casual riders and annual members, with the goal of designing a marketing strategy to convert casual riders into annual members. The data provided is historical trip data from Fictional Company Cyclistic's bike-share system. The analysis steps were conducted in phases as follows: [Ask](), [Prepare](), [Process](), [Analyze](), [Share]() and [Act]().
+This repository contains the work for the Google Data Analyics Cyclistic Bike-Share Capstone Case Study. The analysis aims to compare the behaviors of casual riders and annual members, with the goal of designing a marketing strategy to convert casual riders into annual members. The data provided is historical trip data from Fictional Company Cyclistic's bike-share system. The analysis steps were conducted in phases as follows: [Ask](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/README.md#ask), [Prepare](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/README.md#prepare), [Process](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/README.md#process), [Analyze](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/README.md#analyze-and-share), [Share](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/README.md#analyze-and-share) and [Act](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/README.md#act). There is also a [Summary](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/README.md#summary).
 ### Links:
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [I'm using data from 2024]  
 
 SQL Queries:
-[1. Create Tables](ntar masukin link sini)
-[2. Cleaning Data](masukin link)
-[3. Analyzing And Visualizing](masukin link)
+[1. Create Tables](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/1.%20Create%20Tables.sql)
+[2. Cleaning Data](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/2.%20Cleaning%20Data.sql)
+[3. Analyzing And Visualizing](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/3.%20Analyzing%20and%20Visualizing%20The%20Data.sql)
 
 ## Overview
 ### Cyclistic
