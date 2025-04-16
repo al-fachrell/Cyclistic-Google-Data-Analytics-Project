@@ -9,8 +9,11 @@ This repository contains the work for the Google Data Analyics Cyclistic Bike-Sh
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [I'm using data from 2024]  
 
 SQL Queries:
+
 [1. Create Tables](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/1.%20Create%20Tables.sql)
+
 [2. Cleaning Data](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/2.%20Cleaning%20Data.sql)
+
 [3. Analyzing And Visualizing](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/3.%20Analyzing%20and%20Visualizing%20The%20Data.sql)
 
 ## Overview
