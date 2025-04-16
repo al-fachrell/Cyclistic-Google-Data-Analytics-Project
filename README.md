@@ -46,30 +46,34 @@ There are 12 files, each named using the format YYYYMM-divvy-tripdata, with each
 ## Process
 I used Bigquery to combine the datasets into one single tables, and clean it.
 ### Combining Datasets
-Query: [Create Tables]()
+Query: [Create Tables](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/1.%20Create%20Tables.sql)
 Uploading 12 files and create final table named `final_cleaned_combined_data`
 ### Checking and Cleaning The Data
-Query: [Clean Data]()
+Query: [Clean Data](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/2.%20Cleaning%20Data.sql)
 #### Discoveries:
 1. Column names and the data types
 
-![Image](image.png)
+![Image](https://drive.google.com/uc?export=view&id=1h7H3ZorO4pbxaTSAPEfo0LUOQAysB8UD
+)
 
 2. Check for null values in `start_station_name` and `end_station_name`
 
-![Image 2](image-1.png)
+![Image 2](https://drive.google.com/uc?export=view&id=1vL-Yx0_6PQWhECT_V_lbfihQYz10L52P
+)
 
 Checking for null values in `start_station_name` and `end_station_name` is crucial because these columns represent the starting and ending points of bike trips, which are key to analyzing trip patterns, popular routes, and station usage.
 
 3. Check for rides with duration less than 1 minutes
 
-![Image 3](image-2.png)
+![Image 3](https://drive.google.com/uc?export=view&id=1-7uucLQPghazV0DZlklWWYPfDX_YDolf
+)
 
 Rides with a duration of less than 1 minute are typically considered outliers because they are unusually short for bike trips. Such durations might indicate errors in the data, like a ride being logged when a bike was checked out and immediately returned without being ridden, or it could represent a system glitch. In real-world scenarios, most bike rides, even short ones, tend to last longer than a minute, so durations under this threshold are often not meaningful and can skew the analysis if included. Identifying and handling these outliers helps ensure that the data accurately reflects typical bike usage.
 
 4. Check for rides of more than 24 hours
 
-![Image](image-3.png)
+![Image](https://drive.google.com/uc?export=view&id=1xp_wRqlruDqe7fH_jTFpAYE1A6Be7deZ
+)
 
 Same like rides with a duration less than 1 minute, rides lasting more than 24 hours are considered outliers. They are typically data errors, as bike trips rarely last that long. Including such rides can distort the analysis, so identifying and handling them ensures the data reflects normal usage.
 
@@ -79,7 +83,8 @@ Remaining rows, 5.860.568 - 1.652.259 = 4.208.309 Rows
 
 6. Add and Update `ride_length` in minutes column
 
-![Image](image-4.png)
+![Image](https://drive.google.com/uc?export=view&id=13rCmLQm-B9A2K2jVSEiC0xLKscNM3YF0
+)
 
 7. Create a new table without rows having ride lengths less than 1 minute or more than 24 hours (1440 Minutes) (Outliers)
 The table named `final_cleaned_combined_data`
@@ -87,25 +92,28 @@ Remaining rows, 4.208.309 - 40.037 = 4.168.272
 
 8. Add day and month columns
 
-![Image](image-5.png)
+![Image](https://drive.google.com/uc?export=view&id=1majnkMw0p-fyrx3h0HfLaJy0OlvB4EN2
+)
 
 Adding `day` and `month` columns helps analyze bike usage patterns by day of the week or season. Visualizing this data can reveal trends, like higher usage on weekends or specific months, allowing for better insights into demand and optimization strategies.
 
 9. Check and delete duplicate ride_ids
 Deleting 242 rows
 
-![Image](image-6.png)
+![Image](https://drive.google.com/uc?export=view&id=1O2foRUB6og3rdqzI0UcerTkVsP86XV1k
+)
 
 The `ride_id` column contains unique identifiers for each bike ride, ensuring that each trip is recorded separately. If there are duplicate `ride_id` entries, it means that the same ride is being counted more than once, which can lead to inaccurate analysis. This duplication can artificially inflate ride counts, distort average ride durations, and skew other metrics like station usage or trip frequency. Identifying and removing duplicates ensures the integrity of the data, providing accurate insights into bike usage and helping avoid misleading conclusions.
 
 10. Count the remaining number of rows in the `final_cleaned_combined_data` table
 
-![Image](image-7.png)
+![Image](https://drive.google.com/uc?export=view&id=1Zul3Kapi8jPA-qfgEufxNtUeAEq8T0XG
+)
 
 ## Analyze and Share
-Query: [Analysis]()
+Query: [Analysis](https://github.com/al-fachrell/Cyclistic-Google-Data-Analytics-Project/blob/main/3.%20Analyzing%20and%20Visualizing%20The%20Data.sql)
 
-Visualization: [Tableau]()
+Visualization: Tableau
 1. Comparing Total Trips `Members` and `Casual`
 
 ![Image](https://drive.google.com/uc?export=view&id=12Z5tKAYYnflj5mL7hSUoqCorIJXKBZ-6
