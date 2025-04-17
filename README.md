@@ -122,9 +122,9 @@ Visualization: Tableau
 ![Image](https://drive.google.com/uc?export=view&id=12Z5tKAYYnflj5mL7hSUoqCorIJXKBZ-6
 )
 
-    `Members` took the most rides with 63,87% (1.506.079 Trips) of the total trips compared to 36,13% (2662.193) for `Casual`
+`Members` took the most rides with 63,87% (1.506.079 Trips) of the total trips compared to 36,13% (2662.193) for `Casual`
 
-    **The key takeaway from the ride duration difference is that casual riders tend to use the service for more leisurely purposes, whereas members rely on it for more frequent, shorter trips.**
+**The key takeaway from the ride duration difference is that casual riders tend to use the service for more leisurely purposes, whereas members rely on it for more frequent, shorter trips.**
 
 
 2. Average Ride Length `Members` and `Casual`
@@ -132,7 +132,7 @@ Visualization: Tableau
 ![Image](https://drive.google.com/uc?export=view&id=1LebTHhfxcUotxeUos-DfFIEvLIiiGltW)
 `Casual` riders averaged 23,68 minutes per ride while `Member` riders averaged 12,06 minutes per rides.
 
-    **This difference indicates that `Casual` riders typically take longer trips compared to `Members`, with casual trips being more than twice as long on average.**
+**This difference indicates that `Casual` riders typically take longer trips compared to `Members`, with casual trips being more than twice as long on average.**
 
 
 3. Bike Demand By Hour
@@ -141,7 +141,7 @@ Visualization: Tableau
 )
 This is when the demand peaks for both `Members` and `Casual` riders. The rush at **17:00** is especially notable for `Members`, likely **reflecting the end of the workday or shift**, when people are returning home or heading out for personal errands. 
 
-    Since the peak demand time shows a clear gap between `Casual` and `Member` riders, the service could focus on converting more `Casual` riders into `Members`, particularly those who use the service during the busy times like 17:00.
+Since the peak demand time shows a clear gap between `Casual` and `Member` riders, the service could focus on converting more `Casual` riders into `Members`, particularly those who use the service during the busy times like 17:00.
 
 
 4. Bike Demand Daily
@@ -213,23 +213,23 @@ Based on the findings, here are the top 5 recommendations for Cyclistic to effec
 
 **1. Target Marketing Campaigns During Peak Usage Times (17:00):**
 
-    Promote membership benefits such as unlimited ride time or discounts on frequent usage. Additionally, special offers like trial memberships or free extended ride time for those using bikes during peak times could entice Casual riders to switch to a more economical membership.
+ Promote membership benefits such as unlimited ride time or discounts on frequent usage. Additionally, special offers like trial memberships or free extended ride time for those using bikes during peak times could entice Casual riders to switch to a more economical membership.
 
 **2. Leverage Popular Tourist and Recreational Areas for Membership Promotions**
     
-    Focus on targeted marketing campaigns in high-traffic tourist and recreational zones. Offer membership promotions tailored to tourists or leisure users, emphasizing the convenience and cost-effectiveness of an annual membership for frequent sightseeing or recreational trips. Consider partnerships with local attractions to offer exclusive membership discounts or special deals for people using bikes in these areas.
+ Focus on targeted marketing campaigns in high-traffic tourist and recreational zones. Offer membership promotions tailored to tourists or leisure users, emphasizing the convenience and cost-effectiveness of an annual membership for frequent sightseeing or recreational trips. Consider partnerships with local attractions to offer exclusive membership discounts or special deals for people using bikes in these areas.
 
 **3. Promote Electric Bikes and Scooters for Casual Riders to Encourage Membership**
 
-    Enhance the availability of electric bikes and electric scooters in tourist-heavy areas or places with high foot traffic. Offer discounted membership rates for electric bike and electric scooter users to promote longer rides at a lower cost. By making electric bikes and scooters a central part of membership packages, you could convert Casual riders into Members by aligning their preferred ride type with membership benefits.
+Enhance the availability of electric bikes and electric scooters in tourist-heavy areas or places with high foot traffic. Offer discounted membership rates for electric bike and electric scooter users to promote longer rides at a lower cost. By making electric bikes and scooters a central part of membership packages, you could convert Casual riders into Members by aligning their preferred ride type with membership benefits.
 
 **4. Transforming Long-Ride Casual Riders into Loyal Members with Targeted Campaigns**
 
-    The 55,448 Casual riders who regularly ride for over 60 minutes present a valuable opportunity for conversion into Members. By analyzing their behavior, location, and usage patterns, the marketing team can design targeted campaigns with personalized offers, discounts, and tailored memberships to effectively encourage this group to transition to annual membership.
+The 55,448 Casual riders who regularly ride for over 60 minutes present a valuable opportunity for conversion into Members. By analyzing their behavior, location, and usage patterns, the marketing team can design targeted campaigns with personalized offers, discounts, and tailored memberships to effectively encourage this group to transition to annual membership.
 
 **5. Harnessing Digital Strategies to Promote Membership Among Casual Riders**
 
-    Cyclistic can convert **Casual riders** into **Members** by using targeted digital campaigns on social media, highlighting the fun and convenience of biking, offering exclusive discounts, and leveraging influencers. Personalized email marketing, retargeting ads, and geolocation-based offers can further encourage conversions, especially near popular tourist spots. These strategies emphasize the value and convenience of an annual membership for **Casual riders**.
+Cyclistic can convert **Casual riders** into **Members** by using targeted digital campaigns on social media, highlighting the fun and convenience of biking, offering exclusive discounts, and leveraging influencers. Personalized email marketing, retargeting ads, and geolocation-based offers can further encourage conversions, especially near popular tourist spots. These strategies emphasize the value and convenience of an annual membership for **Casual riders**.
 
 
 
